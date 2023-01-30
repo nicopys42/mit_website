@@ -1,0 +1,342 @@
+<DOCTYPE html>
+<html lang="en">
+    <!-- Basic-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Site Metas -->
+        <title>SmartEDU - Education Responsive HTML5 Template</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- Site Icons-->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Site CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!-- ALL VERSION CSS-->
+        <link rel="stylesheet" href="css/versions.css">
+        <!-- Responsive CSS-->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="css/custom.css">
+        <!-- Modernizer for Portfolio-->
+        <script src="js/modernizer.js"></script>
+        <!--[if lt IE 9]>
+            <script
+        src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+        </script>
+              <script 
+        src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+        </script>
+            <![endif]-->
+    </head>
+    <body class="host_version"> 
+
+        <!-- Modal -->
+        <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header tit-up">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">MIT Login, Registration and Details</h4>
+                </div>
+                <div class="modal-body customer-box">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                        <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Login">
+                            <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="email1" placeholder="Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                            Submit
+                                        </button>
+                                        <a class="for-pwd" href="javascript:;">Forgot your password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane" id="Registration">
+                            <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" placeholder="Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="email" placeholder="Email" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="mobile" placeholder="Mobile" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="password" placeholder="Password" type="password">
+                                    </div>
+                                </div>
+                                <div class="row">							
+                                    <div class="col-sm-10">
+                                        <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                            Save &amp; Continue
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                            Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- LOADER -->
+        <div id="preloader">
+            <div class="loader-container">
+                <div class="progress-br float shadow">
+                    <div class="progress__item"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END LOADER -->	
+        
+        <!-- Start header -->
+        <header class="top-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img_MITlogo.jpg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbars-host">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Course </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                    <a class="dropdown-item" href="course-grid-2.html">Course Grid 2 </a>
+                                    <a class="dropdown-item" href="course-grid-3.html">Course Grid 3 </a>
+                                    <a class="dropdown-item" href="course-grid-4.html">Course Grid 4 </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Department </a>
+                                <ol>
+                                  <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                                    <li><a class="dropdown-item" href="Civil Engineering.html">Civil Engineering </a></li>
+                                    <li><a class="dropdown-item" href="Computer Science Engineering.html">Computer Science Engineering </a></li>
+                                    <li><a class="dropdown-item" href="Electrical Engineering.html">Electrical Engineering </a></li>
+                                    <li><a class="dropdown-item" href="Mechanical Engineering.html">Mechanical Engineering </a></li>
+                                    <li><a class="dropdown-item" href="Electronics and Communications.html">Electronics and Communications Engineering </a></li>
+                                  </div>
+                                </ol>  
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact us.html">Contact us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Admission</span></a></li>
+                             <ol>
+                                <div class="dropdown-item" aria-labelledby="dropdown-a">
+                                    <li><a class="dropdown-iteam" href="1st Semester.html">1st Semester</a></li>
+                                    <li><a class="dropdown-iteam" href="2nd Semester.html">2nd Semester</a></li>
+                                    <li><a class="dropdown-iteam" href="3rd Semester.html">3rd Semester</a></li>
+                                    <li><a class="dropdown-iteam" href="4th Semester.html">4th Semester</a></li>
+                                    <li><a class="dropdown-iteam" href="5th Semester.html">5th Semester</a></li>
+                                    <li><a class="dropdown-iteam" href="6th Semester.html">6th Semester</a></li>
+                                    <li><a class="dropdown-iteam" href="7th Semester.html">7th Semester</a></li>
+                                    <li><a class="dropdown-iteam" href="8th Semester.html">8th Semester</a></li>
+                                </div>
+                             </ol>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End header -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
+                        <div class="dtab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 text-right">
+                                        <div class="big-tagline">
+                                            <h2><strong>Welcome to Manipur Institute of Technology (AICTE-NEQIP funded) </strong></h2>
+                                            <p class="lead">The Manipur Institute of Technology (erstwhile Government College of Technology) was established on 28th August 1998 by the Government of Manipur as Pioneer Engineering College in the State. On 31st December 2003, the College was renamed as Manipur College of Technology and the management of the College was handed over to a Society headed by the Hon’ble Chief Minister of Manipur as Chairman. Further, the Institute was renamed as Manipur Institute of Technology (MIT) since 4th February 2005. MIT became a Constituent College of Manipur University w.e.f. 13th October 2005. </p>                                               
+                                        </div>
+                                    </div>
+                                </div><!-- end row -->            
+                            </div><!-- end container -->
+                        </div>
+                    </div><!-- end section -->
+                </div>
+                <div class="carousel-item">
+                    <div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
+                        <div class="dtab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 text-left">
+                                        <div class="big-tagline">
+                                            <h2 data-animation="animated zoomInRight">OUR VISION <strong></strong></h2>
+                                            <p class="lead" data-animation="animated fadeInLeft">Excellence in engineering and technology education with good leadership in Human Resource Development. </p>
+                                        </div>
+                                    </div>
+                                </div><!-- end row -->            
+                            </div><!-- end container -->
+                        </div>
+                    </div><!-- end section -->
+                </div>
+                <div class="carousel-item">
+                    <div id="home" class="first-section" style="background-image:url('images/slider-03.jpg');">
+                        <div class="dtab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 text-center">
+                                        <div class="big-tagline">
+                                            <h2 data-animation="animated zoomInRight"><strong>OUR MISSION</strong></h2>
+                                            <p class="lead" data-animation="animated fadeInLeft">
+                                                <ol>
+                                                    <li> To produce technically strong, innovative, research oriented, all round developed engineers capable to solve modern challenges by adopting student centric teaching learning methods.</li>
+                                                    <li> To impart engineering and technology education for all round development.</li>
+                                                    <li> To produce good engineering professionals with social commitment.</li>
+                                                </ol>
+                                            </p>                                                    
+                                        </div>
+                                    </div>
+                                </div><!-- end row -->            
+                            </div><!-- end container -->
+                        </div>
+                    </div><!-- end section -->
+                </div>
+            </div>
+        </div>
+        
+        <div id="overviews" class="section wb">
+            <div class="container">
+                <div class="section-title row text-center">
+                    <div class="col-md-8 offset-md-2">
+                        <h3>CAMPUS INFORMATION</h3>
+                    </div>
+                </div><!-- end title -->
+            
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="message-box">
+                            <h2>Takyelpat Campus</h2>
+                            <p>MIT Takyelpat campus is located just adjacent to NH 37 (New Cachar Road) approximately 4 Kms. from the heart of Imphal City. It is about 6 Kms from Imphal International Airport, Tulihal, Imphal</p>
+                        </div><!-- end messagebox -->
+                    </div><!-- end col -->
+                    
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="post-media wow fadeIn">
+                            <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded">
+                        </div><!-- end media -->
+                    </div><!-- end col -->
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="post-media wow fadeIn">
+                            <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded">
+                        </div><!-- end media -->
+                    </div><!-- end col -->
+                    
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="message-box">
+                            <h2>Manipur University Campus (Canchipur)</h2>
+                            <p>MIT Manipur University Campus is located at Canchipur, Imphal, the capital city of Manipur. The University campus is spread over an area of 287 acres in the historic Canchipur which is the site of the old palace of Manipur “The Langthabal Konung (Palace)” which was established by Maharaja Ghambhir Singh in 1827 AD just after the liberation of Manipur from Burmese (Myanmar) occupation. Maharaja Gambhir Singh took his last breath at Canchipur. Canchipur is located along the National Highway (NH-2) at about 8 km. from the heart of the Imphal City and 12 km. from Imphal International Airport.</p>
+                        </div><!-- end messagebox -->
+                    </div><!-- end col -->
+                    
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end section -->   
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Information Link</h3>
+                            </div>
+                            <ul class="footer-links">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Facility</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul><!-- end links -->
+                        </div><!-- end clearfix -->
+                    </div><!-- end col -->
+                    
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Contact Details</h3>
+                            </div>
+    
+                            <ul class="footer-links">
+                                <li><a href="mailto:#">info@mitsite.com</a></li>
+                                <li><a href="#">www.Mitsite.com</a></li>
+                                <li>Takyelpat, Imphal and Canchipur, MU, Imphal </li>
+                                <li>08202571060</li>
+                            </ul><!-- end links -->
+                        </div><!-- end clearfix -->
+                    </div><!-- end col -->
+                    
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </footer><!-- end footer -->
+    
+        <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+    
+        <!-- ALL JS FILES -->
+        <script src="js/all.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="js/custom.js"></script>
+        <script src="js/timeline.min.js"></script>
+        <script>
+            timeline(document.querySelectorAll('.timeline'), {
+                forceVerticalMode: 700,
+                mode: 'horizontal',
+                verticalStartPosition: 'left',
+                visibleItems: 4
+            });
+        </script>
+    
+    </body>
+</html>
+
+           
+        
+           
